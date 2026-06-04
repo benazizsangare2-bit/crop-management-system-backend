@@ -11,3 +11,11 @@ services:
         fromDatabase:
           name: crop-management-db
           property: connectionString
+      - key: SECRET_KEY
+        generateValue: true # Auto-generate a secret key
+
+# Define your database
+databases:
+  - name: cropinstance
+    plan: free
+    databaseName: cropmanagementdb # Optional: specify DB name
