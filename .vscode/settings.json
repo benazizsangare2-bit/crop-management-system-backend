@@ -1,0 +1,9 @@
+{
+  "python.defaultInterpreterPath": "/home/securityman/wslcodingprojects/crop-production/venv/bin/python",
+  "python.analysis.extraPaths": [
+    "/home/securityman/wslcodingprojects/crop-production",
+    "/home/securityman/wslcodingprojects/crop-production/venv/lib/python3.12/site-packages"
+  ],
+  "python.terminal.activateEnvironment": true,
+  "remote.autoForwardPortsFallback": 0
+}
